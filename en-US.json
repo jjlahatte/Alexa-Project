@@ -1,0 +1,74 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "safety",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": [
+                        "yes"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": [
+                        "no"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "HelloWorldIntent",
+                    "slots": [],
+                    "samples": [
+                        "safety form",
+                        "safety",
+                        "first form",
+                        "on the site",
+                        "first response",
+                        "hazard Analysis",
+                        "hazard analysis form",
+                        "first",
+                        "first response",
+                        "damage",
+                        "assessment",
+                        "assessment form",
+                        "first assessment"
+                    ]
+                },
+                {
+                    "name": "AnswerIntent",
+                    "slots": [],
+                    "samples": [
+                        "yes",
+                        "no",
+                        "na"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "HazardForm",
+                    "slots": [],
+                    "samples": [
+                        "outage",
+                        " Hazard form"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
